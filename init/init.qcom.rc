@@ -604,13 +604,6 @@ service seemp_healthd /vendor/bin/seemp_healthd
     user system
     group system
 
-service chre /vendor/bin/chre
-    class late_start
-    user system
-    group system
-    socket chre seqpacket 0660 root system
-    shutdown critical
-
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal
