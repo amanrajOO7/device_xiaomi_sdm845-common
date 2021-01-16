@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.qti.dcvs.sh \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    logcat.rc
 
 # Configstore
 PRODUCT_PACKAGES += \
