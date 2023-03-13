@@ -53,3 +53,6 @@ if [ -f /sys/block/zram0/disksize ]; then
     mkswap /dev/block/zram0
     swapon /dev/block/zram0 -p 32758
 fi
+
+echo 2 > /proc/irq/7/smp_affinity_list # msm_drm
+echo 1 > /proc/irq/493/smp_affinity_list # kgsl-3d0
