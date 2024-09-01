@@ -1,6 +1,5 @@
 # DPM
-persist.vendor.dpm.feature=11
-persist.vendor.dpm.loglevel=0
+persist.vendor.dpm.feature=9
 
 # Telephony
 ro.telephony.sim_slots.count=2
