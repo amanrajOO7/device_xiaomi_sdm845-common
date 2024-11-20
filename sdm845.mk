@@ -430,6 +430,8 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libgui_shim \
+    libinput_shim \
     libnl \
     libpng.vendor \
     libprocessgroup.vendor \
