@@ -43,6 +43,7 @@ lib_fixups: lib_fixups_user_type = {
         'com.qualcomm.qti.imscmservice@2.2',
         'com.qualcomm.qti.uceservice@2.0',
         'com.qualcomm.qti.uceservice@2.1',
+	'com.qualcomm.qti.uceservice@2.2',
         'libmmosal',
         'vendor.qti.hardware.radio.ims@1.0',
         'vendor.qti.hardware.radio.ims@1.1',
